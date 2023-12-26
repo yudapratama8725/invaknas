@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333333 !important;
+  color: white !important;
+}
+
+.no-btn {
+  cursor: none;
+}
+
+/*Card*/
+
+.card-top::before {
+  content: "";
+  width: 100%;
+  height: 150px;
+  background: transparent;
+}
+.card-img-top {
+  top: -70px;
+  left: 70px;
+}
+
+/* Update */
+
+.bali:hover {
+  fill: blueviolet;
+}
+
+/* Accordion */
+
+/* Right Side  */
+.accordion-item {
+  border: 2px solid #26ca96 !important;
+  border-radius: 10px !important;
+  margin: 20px 0 !important;
+}
+
+.accordion-button {
+  box-shadow: none !important;
+  background-color: #555555 !important;
+  color: white !important;
+  border: none !important;
+}
+
+.accordion-body {
+  background-color: #555555 !important;
+  color: white !important;
+  border-radius: 0px 0px 7px 7px !important;
+}
+
+.accordion-item h2 button.collapsed {
+  border-radius: 7px !important;
+}
+.accordion-item h2 button {
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  border-radius: 7px 7px 0px 0px !important;
+}
+
+.accordion-item h2 button span .bi {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%) rotate(-180deg);
+  transition: 0.7s all ease-in-out;
+  color: #26ca96 !important;
+}
+
+.accordion-item h2 button.collapsed span .bi {
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.accordion-item h2 button span img {
+  width: 5vh;
+}
+
+/* Footer */
+.kotak {
+  width: 60%;
+  height: 500px;
+  background-image: linear-gradient(180deg, #26ca96 0%, #00ffd2 36.98%);
+  border-radius: 20px !important;
+}
+
+.card-luar {
+  width: 100%;
+  height: 450px;
+  top: 400px;
+  background-color: black;
+  border-radius: 20px !important;
+  border: 2px solid #00f0ff;
+}
+
+footer {
+  width: 100%;
+}
+
+.top-foot {
+  padding-top: 400px;
+}
